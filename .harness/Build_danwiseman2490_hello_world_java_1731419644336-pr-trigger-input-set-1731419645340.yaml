@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_danwiseman2490_hello_world_java_1731419644336-pr-trigger-input-set
+  identifier: Build_danwiseman2490_hello_world_java_1731419644336prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_danwiseman2490_hello_world_java_1731419644336
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
